@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'accepted' => 'El campo :attribute debe ser aceptado.',
+    'after' => 'El campo :attribute debe ser una fecha posterior a :date.',
+    'after_or_equal' => 'El campo :attribute debe ser una fecha posterior o igual a :date.',
+    'array' => 'El campo :attribute debe ser una lista.',
+    'before' => 'El campo :attribute debe ser una fecha anterior a :date.',
+    'before_or_equal' => 'El campo :attribute debe ser una fecha anterior o igual a :date.',
+    'boolean' => 'El campo :attribute debe ser verdadero o falso.',
+    'confirmed' => 'La confirmación de :attribute no coincide.',
+    'current_password' => 'La contraseña actual es incorrecta.',
+    'date' => 'El campo :attribute debe ser una fecha válida.',
+    'different' => 'El campo :attribute debe ser diferente de :other.',
+    'email' => 'El campo :attribute debe ser un correo electrónico válido.',
+    'enum' => 'El valor seleccionado en :attribute no es válido.',
+    'exists' => 'El valor seleccionado en :attribute no es válido.',
+    'gt' => ['numeric' => 'El campo :attribute debe ser mayor que :value.'],
+    'image' => 'El campo :attribute debe ser una imagen.',
+    'in' => 'El valor seleccionado en :attribute no es válido.',
+    'integer' => 'El campo :attribute debe ser un número entero.',
+    'lte' => ['numeric' => 'El campo :attribute debe ser menor o igual que :value.'],
+    'max' => [
+        'array' => 'El campo :attribute no debe tener más de :max elementos.',
+        'file' => 'El archivo :attribute no debe pesar más de :max kilobytes.',
+        'numeric' => 'El campo :attribute no debe ser mayor que :max.',
+        'string' => 'El campo :attribute no debe tener más de :max caracteres.',
+    ],
+    'min' => [
+        'array' => 'El campo :attribute debe tener al menos :min elementos.',
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string' => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'not_in' => 'El valor seleccionado en :attribute no es válido.',
+    'numeric' => 'El campo :attribute debe ser un número.',
+    'password' => ['min' => 'La :attribute debe tener al menos :min caracteres.'],
+    'regex' => 'El formato de :attribute no es válido.',
+    'required' => 'El campo :attribute es obligatorio.',
+    'string' => 'El campo :attribute debe ser texto.',
+    'unique' => 'El :attribute ya está registrado.',
+
+    'custom' => [],
+
+    'attributes' => [
+        'nombre' => 'nombre',
+        'seccion' => 'sección',
+        'horario' => 'horario',
+        'fecha' => 'fecha',
+        'password' => 'contraseña',
+        'usuario' => 'usuario',
+    ],
+];
