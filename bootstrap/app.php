@@ -19,6 +19,8 @@ return Application::configure(basePath: dirname(__DIR__))
             'rol' => EnsureRol::class,
             'habilitado' => UsuarioHabilitado::class,
         ]);
+        // Hosting con proxy HTTPS (alwaysdata): respetar X-Forwarded-Proto para generar URLs https.
+        $middleware->trustProxies(at: '*');
         $middleware->redirectGuestsTo(fn () => route('login'));
         $middleware->redirectUsersTo(fn () => route('inicio'));
     })
