@@ -6,6 +6,7 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 @source '../../app/Enums/*.php';
+@source not '../../public/build';
 
 @theme {
     --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
